@@ -1,0 +1,35 @@
+body {
+  overflow-x: hidden;
+}
+.app .container:has(.auth) {
+  position: absolute;
+  width: 100%;
+  top: 0;
+}
+.app {
+  padding: 40px;
+  padding-top: 10px;
+}
+/* Colors */
+:root {
+  --button-color: rgb(247, 210, 176);
+  --button-hover: rgb(131, 89, 59);
+  --light-blue: rgb(214, 156, 108);
+  --title-h1: rgb(107, 62, 21);
+  --light-brown: rgb(245, 201, 152);
+  --dark-brown: rgb(167, 119, 65);
+  --normal: 20px;
+}
+.app {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 570px) {
+  .app {
+    padding: 0;
+  }
+  .post {
+    flex-wrap: wrap;
+  }
+}

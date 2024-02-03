@@ -1,0 +1,9 @@
+.footer {
+  padding: 30px;
+  background-color: var(--light-brown);
+  display: flex;
+  justify-content: space-between;
+}
+.footer p {
+  padding: 10px;
+}
